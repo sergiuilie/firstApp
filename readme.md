@@ -6,6 +6,8 @@
 * [download Git](https://git-scm.com/download/win) and install it 
 * [download Composer](https://getcomposer.org/Composer-Setup.exe) and install it 
 * [download nodeJs](https://nodejs.org/dist/v6.9.1/node-v6.9.1-x64.msi) and install it 
+* [download HeidiSQL](http://www.heidisql.com/download.php) and install it
+* [download NetBeans *All bundle](https://netbeans.org/downloads/) and install it 
 * open cmd and run
 
 ```sh
@@ -20,6 +22,12 @@ npm install -g grunt-cli bower
 ```sh
 
 composer install
+
+npm install
+
+bower install
+
+composer publish
 ```
 
 * open and cmd as an administrator and run
@@ -30,5 +38,20 @@ mklink /J <xampp_instalation_folder>/htdocs/firstApp <clone_project_folder>/publ
 ```
 
 * open XAMPP control panel and start Apache and mySQL
+* open HeidiSQL and connect to 
+
+```sh
+host: localhost
+port: 3306
+user: root
+password: 
+```
+* create a new database called `myfirstapp`
+* in the previous cmd with the path of the application run
+
+```sh 
+
+composer database
+```
 * open a browser and go to this [link](http://localhost/firstApp)
-* will be added other instructions later
+* import the project in netbeans 
