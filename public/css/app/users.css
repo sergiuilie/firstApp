@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 2, 2016, 10:27:35 AM
+    Author     : sergiu.ilie
+*/
+
+.btn-primary {
+    background-color : purple;
+    border: 2px solid purple;
+}
+
+.btn-custom {
+    background-color: #08a508;
+    border: 2px solid  #0e9c0e;
+    color: white;
+}
