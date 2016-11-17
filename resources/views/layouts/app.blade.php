@@ -49,6 +49,7 @@
                         <li><a href="{{ route('contacts.index') }}">My Contacts</a></li>
                         <li><a href="{{ route('users.index') }}">Users</a></li>
                         <li><a href="{{ route('notes.index') }}">My Notes</a></li>
+                        <li><a href="{{ route('shop.index') }}">Shop</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

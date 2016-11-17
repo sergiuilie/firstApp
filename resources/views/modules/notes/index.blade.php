@@ -66,7 +66,7 @@
             },
             function () {
             alertify.error('Cancel');
-            });
+        });
     }
 </script>
 
